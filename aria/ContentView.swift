@@ -8,9 +8,71 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    init() {
+        UITabBar.appearance().backgroundColor = UIColor.systemGray6
+
+    }
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+       
+    
+            
+            TabView {
+                
+               HomeView()
+                    .tabItem {
+                    Image(systemName: "house")
+                    Text("home")
+                    
+                }
+                
+                
+                MessagesView()
+                    .tabItem {
+                    Image(systemName: "message")
+                    Text("message")
+                                    }
+                
+                
+                
+                StoriesUIView().tabItem {
+                    Image(systemName: "video")
+                    Text("stories")
+                }
+                
+                
+                MapView().tabItem {
+                    Image(systemName: "map")
+                    Text("map")
+                }
+                
+                
+                
+                Text("OneView").tabItem {
+                    Image(systemName: "person")
+                    Text("profil")
+                }
+                
+                
+
+            
+
+
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
     }
 }
 
@@ -19,3 +81,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

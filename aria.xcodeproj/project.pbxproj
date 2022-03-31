@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		877A723B27E9CC6B00EF118C /* MessageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A723A27E9CC6B00EF118C /* MessageDetailView.swift */; };
+		877A723D27E9DA0E00EF118C /* Chats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A723C27E9DA0E00EF118C /* Chats.swift */; };
+		877A723F27E9F34000EF118C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A723E27E9F34000EF118C /* LoginView.swift */; };
+		877A724127E9FB7700EF118C /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877A724027E9FB7700EF118C /* ProfilView.swift */; };
 		87DD2E4127E758F0008A528F /* ariaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD2E4027E758F0008A528F /* ariaApp.swift */; };
 		87DD2E4327E758F0008A528F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD2E4227E758F0008A528F /* ContentView.swift */; };
 		87DD2E4527E758F1008A528F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DD2E4427E758F1008A528F /* Assets.xcassets */; };
@@ -14,6 +18,14 @@
 		87DD2E5227E758F1008A528F /* ariaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD2E5127E758F1008A528F /* ariaTests.swift */; };
 		87DD2E5C27E758F1008A528F /* ariaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD2E5B27E758F1008A528F /* ariaUITests.swift */; };
 		87DD2E5E27E758F1008A528F /* ariaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD2E5D27E758F1008A528F /* ariaUITestsLaunchTests.swift */; };
+		87DD2E7127E7E278008A528F /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD2E7027E7E278008A528F /* MessagesView.swift */; };
+		87DD2E7327E7FA67008A528F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD2E7227E7FA67008A528F /* HomeView.swift */; };
+		87DD2E7527E83138008A528F /* ls.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DD2E7427E83138008A528F /* ls.storyboard */; };
+		87DD2E7727E88F8E008A528F /* StoriesUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD2E7627E88F8E008A528F /* StoriesUIView.swift */; };
+		87DD2E7F27E89452008A528F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD2E7E27E89452008A528F /* User.swift */; };
+		87DD2E8127E89569008A528F /* Publication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD2E8027E89569008A528F /* Publication.swift */; };
+		87DD2E8327E89F07008A528F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD2E8227E89F07008A528F /* MapView.swift */; };
+		87DD2E8527E8A0B9008A528F /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DD2E8427E8A0B9008A528F /* Map.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		877A723A27E9CC6B00EF118C /* MessageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailView.swift; sourceTree = "<group>"; };
+		877A723C27E9DA0E00EF118C /* Chats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chats.swift; sourceTree = "<group>"; };
+		877A723E27E9F34000EF118C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		877A724027E9FB7700EF118C /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
 		87DD2E3D27E758F0008A528F /* aria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87DD2E4027E758F0008A528F /* ariaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ariaApp.swift; sourceTree = "<group>"; };
 		87DD2E4227E758F0008A528F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +60,14 @@
 		87DD2E5727E758F1008A528F /* ariaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ariaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87DD2E5B27E758F1008A528F /* ariaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ariaUITests.swift; sourceTree = "<group>"; };
 		87DD2E5D27E758F1008A528F /* ariaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ariaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87DD2E7027E7E278008A528F /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		87DD2E7227E7FA67008A528F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		87DD2E7427E83138008A528F /* ls.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ls.storyboard; sourceTree = "<group>"; };
+		87DD2E7627E88F8E008A528F /* StoriesUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesUIView.swift; sourceTree = "<group>"; };
+		87DD2E7E27E89452008A528F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		87DD2E8027E89569008A528F /* Publication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publication.swift; sourceTree = "<group>"; };
+		87DD2E8227E89F07008A528F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		87DD2E8427E8A0B9008A528F /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		877A729727EB631400EF118C /* structure */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = structure;
+			sourceTree = "<group>";
+		};
 		87DD2E3427E758F0008A528F = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +127,21 @@
 			children = (
 				87DD2E4027E758F0008A528F /* ariaApp.swift */,
 				87DD2E4227E758F0008A528F /* ContentView.swift */,
+				877A729727EB631400EF118C /* structure */,
+				877A723A27E9CC6B00EF118C /* MessageDetailView.swift */,
+				87DD2E8227E89F07008A528F /* MapView.swift */,
+				87DD2E8427E8A0B9008A528F /* Map.swift */,
+				87DD2E7227E7FA67008A528F /* HomeView.swift */,
+				87DD2E7627E88F8E008A528F /* StoriesUIView.swift */,
+				87DD2E7027E7E278008A528F /* MessagesView.swift */,
+				87DD2E7E27E89452008A528F /* User.swift */,
+				87DD2E8027E89569008A528F /* Publication.swift */,
+				877A723C27E9DA0E00EF118C /* Chats.swift */,
+				877A723E27E9F34000EF118C /* LoginView.swift */,
 				87DD2E4427E758F1008A528F /* Assets.xcassets */,
+				87DD2E7427E83138008A528F /* ls.storyboard */,
 				87DD2E4627E758F1008A528F /* Preview Content */,
+				877A724027E9FB7700EF118C /* ProfilView.swift */,
 			);
 			path = aria;
 			sourceTree = "<group>";
@@ -232,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87DD2E4827E758F1008A528F /* Preview Assets.xcassets in Resources */,
+				87DD2E7527E83138008A528F /* ls.storyboard in Resources */,
 				87DD2E4527E758F1008A528F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +302,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DD2E8527E8A0B9008A528F /* Map.swift in Sources */,
+				87DD2E7727E88F8E008A528F /* StoriesUIView.swift in Sources */,
+				87DD2E7127E7E278008A528F /* MessagesView.swift in Sources */,
+				87DD2E8127E89569008A528F /* Publication.swift in Sources */,
+				877A723D27E9DA0E00EF118C /* Chats.swift in Sources */,
+				877A724127E9FB7700EF118C /* ProfilView.swift in Sources */,
+				87DD2E7F27E89452008A528F /* User.swift in Sources */,
+				877A723F27E9F34000EF118C /* LoginView.swift in Sources */,
 				87DD2E4327E758F0008A528F /* ContentView.swift in Sources */,
+				877A723B27E9CC6B00EF118C /* MessageDetailView.swift in Sources */,
+				87DD2E7327E7FA67008A528F /* HomeView.swift in Sources */,
+				87DD2E8327E89F07008A528F /* MapView.swift in Sources */,
 				87DD2E4127E758F0008A528F /* ariaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,11 +473,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"aria/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = ls;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -445,11 +503,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"aria/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = ls;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
